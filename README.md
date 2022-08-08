@@ -25,8 +25,9 @@ $ ./exp/eval_benchmark.sh <OUT_DIR>
 
 The above command will take approximately 10-20 minutes to finish. Once the
 script has finished running, the generated programs will be stored in the
-specified directory. In the output directory, there will be 5 subdirectories as
-follows:
+specified directory. In the output directory, there will be a subdirectory for
+each parameter (algorithm, cycle, size, and generator) which will contain 5
+subdirectories as follows:
 
 - `src`: contains C source code of generated programs
 - `bin`: contains compiled binaries of generated programs
