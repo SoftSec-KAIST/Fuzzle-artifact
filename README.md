@@ -8,9 +8,10 @@ for Fuzzers."
 ## Setup
 
 From the `exp` directory, run `eval_setup.sh` script to build docker images and
-set up python environments.
+set up python environments. The script may take up to a few hours to complete.
 
-Note that you need python 3.7+ to generate benchmark programs using Fuzzle.
+Note that you need python 3.7+ and z3 solver to generate benchmark programs
+using Fuzzle.
 
 ## Replicating experiments in the paper
 
